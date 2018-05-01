@@ -7,48 +7,64 @@
   flex-wrap: wrap;
 }
 header{
-  background-color: #1F2833;
+  background-color: rgb(37, 58, 103);
   margin: 0;
   padding: 1em;
   padding-bottom: .1em;
 }
-h1{
-  color: #45A29E;
+
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+h1, h2{
+  color: rgb(155, 180, 234);
   text-align: center;
 }
-h2{
-  color: #45A29E;
-  text-align: center;
-}
+
 nav {
   justify-content: space-between;
 }
 
 nav > a{
-  background-color: #0B0C10;
-  border: 1px solid white;
+  background-color: rgb(68, 79, 103);
+
   color: #C5C6C7;
-  flex: 1;
+  flex: 1 1 0;
   text-align: center;
 }
 main{
-  background-color: #1F2833;
+  background-color: rgb(68, 79, 103);
 }
 .note-title{
-  flex: 1 100%;
+  flex: 1 1 100%;
   margin: 0;
 }
 .note-search{
-  flex: 1 100%;
+  border-bottom: 0;
+  flex: 1 1 100%;
   font-size: 16px;
-  margin-bottom: .5em;
+  margin-bottom: 0;
   padding-bottom: 1em;
   text-align: center;
 }
 
 .note-body{
-  background-color: #C5C6C7;
-  flex: 1 100%;
+  background-color: rgb(155, 180, 234);
+  color: black;
+  flex: 1 1 100%;
   font-size: 18px;
   resize: none;
+}
+
+footer{
+  background-color: rgb(68, 79, 103);
+  padding: 1.5em 0;
+}
+
+h6{
+  margin: 0;
 }
